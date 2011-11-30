@@ -1,0 +1,12 @@
+blender render script that loads an obj exported from 3ds, scales it to a 1/1/1 box and renders (using the default settings)
+
+should work with blender 2.58
+
+1) place 2.58/io_scene_3ds in directory ~/.blender/2.58/scripts/addons
+2) startup blender
+3) enable plugin
+4) setup default screen
+5) File->Save User Settings
+6) close blender)
+7) edit render_objs.py fixing the model bank and output directories
+8) run script from command line: blender -P render_objs.py
